@@ -1,5 +1,5 @@
 import React from "react";
-const Form = ({inputText , setInputText , setTodos , todos ,status, setStatus}) => {
+const Form = ({inputText , setInputText , setTodos , todos ,status, setStatus }) => {
 
 const inputTextHandler = (e)=>{
 console.log(e.target.value);
@@ -18,6 +18,7 @@ const StatusHandler = (e) =>{
     setStatus(e.target.value)
 
 }
+
 
     return(
 
